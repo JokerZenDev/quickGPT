@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  QuickGPT
 //
-//  Created by Michele Lenzi on 15/03/24.
+//  Created by MikyInDevMode on 15/03/24.
 //
 
 import SwiftUI
@@ -16,6 +16,7 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .frame(minWidth: 400)
     }
 }
 
